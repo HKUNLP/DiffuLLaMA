@@ -143,7 +143,7 @@ An example of DiffuLLaMA inference: `examples/inference/llama2_full_ddm-gsm-inf.
 adapter_name_or_path: output/llama2-ddm-gsm-v3/checkpoint-64000 # the path to saved lora adapter ckpt
 ```
 
-> 📌 Note: If you skip the adapation training and choose to use our released checkpoint to do the finetuning, please specify `checkpoint_dir` to the huggingface cache directory to these checkpoints, or using huggingface cli to download checkpoints to a local directory: `huggingface-cli download model-name --local-dir /a-local-path/`.
+> 📌 Note: If you skip the adaptation training and choose to use our released checkpoint to do the finetuning, please specify `checkpoint_dir` to the huggingface cache directory to these checkpoints, or using huggingface cli to download checkpoints to a local directory: `huggingface-cli download model-name --local-dir /a-local-path/`.
 
 ### 📏 Evaluation
 - will update soon
